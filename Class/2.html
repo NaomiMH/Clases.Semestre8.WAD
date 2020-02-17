@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <title>First Page</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="url">Home</a></li>
+            <li><a href="url">About</a></li>
+            <li><a href="url">Reviews</a></li>
+        </ul>
+    </div>
+    <label for "sidebar">
+        This is the sidebar!
+    </label>
+    <h1>Welcome to our menu!</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Food</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salad</td>
+                    <td>Fresh, delicious Cobb Salad</td>
+                    <td>$7.99</td>
+                </tr>
+                <tr>
+                    <td>Burger</td>
+                    <td>1/4 lb grass-fed burger with choice of cheese</td>
+                    <td>$6.99</td>
+                </tr>
+                <tr>
+                    <td>Chicken Salad Sandwich</td>
+                    <td>Our world famous chicken salad on a bagel with homemade pickles</td>
+                    <td>$8.99</td>
+                </tr>
+                <tr>
+                    <td>Buffalo Chicken Sandwich</td>
+                    <td>Spicy fried chicken on a brioche bun</td>
+                    <td>$10.99</td>
+                </tr>
+                <tr>
+                    <td>Fries</td>
+                    <td>Hand cut potatoes lightly fries and seasoned</td>
+                    <td>$1.99</td>
+                </tr>
+                <tr>
+                    <td>Soda</td>
+                    <td>Regular,diet, orange,or root beer</td>
+                    <td>$1.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Leave us a comment</legend>
+            <div style="margin-bottom: 2px;">
+                <label>First name :</label>
+                <input type="text" id="fname" class="comment" />
+            </div>
+            <div style="margin-bottom: 2px;">
+                <label>Last name :</label>
+                <input type="text" id="lname" class="comment" />
+            </div>
+            <div style="margin-bottom: 2px;">
+                <label>Email :</label>
+                <input type="email" id="email" class="comment" />
+            </div>
+            <div style="margin-bottom: 2px;">
+                <label>Phone number :</label>
+                <input type="tel" id="phone" class="comment" />
+            </div>
+            <div>
+                <label>Rate us:</label>
+            </div>
+            <div style="margin-bottom: 2px;">
+                <select name="rate" class="comment">
+                    <option value="VG">Very good</option>
+                </select>
+            </div>
+            <div>
+                <label>Your comment:</label>
+            </div>
+            <div style="margin-bottom: 2px;">
+                <textarea name="txtcomment" class="comment"></textarea>
+            </div>
+            <div style="margin-bottom: 2px;">
+                <div><label>Would you visit us again?</label></div>
+                <div>
+                    <label>Yes</label>
+                    <input type="radio" value="Y" name="visit" class="comment" />
+                </div>
+                <div>
+                    <label>No</label>
+                    <input type="radio" value="N" name="visit" class="comment" />
+                </div>
+            </div>
+            <input type="submit" value="Submit" />
+        </fieldset>
+    </form>
+    <label>This is were any content in the footer would go</label>
+</body>
+</html>
