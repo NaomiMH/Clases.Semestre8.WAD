@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<head>
+    <title>First Page</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <h1 style="text-align: center;">My first web page!</h1>
+    <h2>SubHeader</h2>
+    <p style="color: blue; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 25px;">
+        My awesome list:
+    </p>
+    <div style="width: 100%; display: inline-flex;">
+        <div style="width: 50%;">
+            <ol style="width: 50%; margin-right: 0px;">
+                <li>first element</li>
+                <li>second element</li>
+                <li>third element</li>
+            </ol>
+        </div>
+        <div style="width: 50%;">
+            <ul style="width: 50%;">
+                <li>first element</li>
+                <li>second element</li>
+                <li>third element</li>
+            </ul>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 50px;">
+        <img title="cat" style="border-radius:50px;" src="./cat.jpg" />
+        <img title="cat" style="border-radius:50px;" src="./cat.jpg" />
+    </div>
+    <div style="text-align: center; margin-top: 50px;">
+        <img title="cat" style="border-radius:50px;" src="https://www.scottishspca.org/sites/default/files/styles/full_content/public/2019-09/Buying%20a%20cat%201000x600.jpeg?itok=nvUseKh2" />
+    </div>
+    <a src="/cat.jpg">cat</a>
+
+    <form>
+        <fieldset>
+            <legend>
+                Title of form
+            </legend>
+            <div style="margin-bottom: 15px;">
+                <label for "username">
+                    Username:
+                </label>
+                <input type="text" id="username" class="test" name="user" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "password">
+                    Password:
+                </label>
+                <input type="password" id="password" class="test" name="pass" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="gender-male">
+                    Male
+                </label>
+                <input type="checkbox" value="m" name="gender" id="gender-male" class="test" />
+                <label for="gender-female">
+                    Female
+                </label>
+                <input type="checkbox" name="gender" id="gender-female" value="f" class="test" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "age">
+                    Age:
+                </label>
+                <input type="number" id="age" class="test" name="age" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "email">
+                    Email:
+                </label>
+                <input type="email" id="email" class="test" name="email" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "birth">
+                    Date of birth:
+                </label>
+                <input type="date" id="birth" class="test" name="birth" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "cel">
+                    Cel:
+                </label>
+                <input type="tel" id="cel" class="test" name="cel" />
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "country">
+                    Country:
+                </label>
+                <select name="country">
+                    <option value="">
+                        
+                    </option>
+                    <option value="MX">
+                        Mexico
+                    </option>
+                    <option value="FR">
+                        Francia
+                    </option>
+                </select>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for "text">
+                    Text Area:
+                </label>
+                <textarea>
+                    Text area
+                </textarea>
+            </div>
+            <input type="submit" value="Submit" />
+            <button type="submit">
+                Submit
+            </button>
+        </fieldset>
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        One
+                    </th>
+                    <th>
+                        Two
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        foot1
+                    </td>
+                    <td>
+                        foot2
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
+
+<!--
+    not use <br/> <hr>
+
+    Attributes rules
+    - not begin with a number
+    - should begin with lowercase letter
+    - Ot can be followed by a-z, A-Z, 0-9, _-
+
+    Sections of the page can be:
+    <main>
+    <section>
+    <footer>
+    <address>
+    <article>
+    <header>
+    They are accessible and block element
+-->
