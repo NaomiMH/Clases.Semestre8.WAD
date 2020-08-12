@@ -1,0 +1,63 @@
+div{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.content, .main{
+  display: flex;
+}
+
+.main{
+  flex: 4;
+}
+
+.side{
+  flex: 1;
+  text-align: center;
+}
+.side-box{
+  height: 41%;
+}
+
+.heading, .navigation{
+  display: flex;
+}
+.heading-box, .nav-box{
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+}
+
+@media (max-width: 600px){
+  .heading, .content{
+    display: none;
+  }
+
+  .navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-box{
+    width: 90%;
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px){
+  .heading{
+    display: none;
+  }
+  .main{
+    flex: 2;
+  }
+  .side{
+    flex: 1;
+    text-align: center;
+  }
+  .side-box{
+    height: 46%;
+  }
+}

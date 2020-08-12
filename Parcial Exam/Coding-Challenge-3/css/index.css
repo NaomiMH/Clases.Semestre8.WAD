@@ -1,0 +1,191 @@
+
+body{
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+    color: #333;
+    background-color: #12bf88;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset{
+    border: 2px solid #32317F; 
+    padding: 20px;
+}
+
+fieldset legend{
+    color: #32317F;
+    font-size: 1.3em;
+}
+
+#mainContainer{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#theJammerHeader, #theJammerFooter{
+    padding: 20px;
+    background-color: #32317F;
+    color: white;
+        text-align: right;
+}
+
+#theJammerHeader{
+    font-size: 2em;   
+}
+
+#tabselector ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #32317F;
+    color: white;
+}
+
+#tabselector ul li{
+    float: left;
+    padding: 10px 20px;
+}
+
+#tabselector ul li.selected, #tabselector ul li:hover{
+    background-color: white; 
+    color: #32317F;
+}
+
+#tabselector ul li:hover{
+    cursor: pointer;   
+}
+
+#tabcontent > div{
+    display: none;
+    padding: 20px;
+}
+
+#tabcontent > div.active{
+    display: block;   
+}
+
+#tabselector{
+    margin: 20px;
+    border: 1px solid #32317F;
+}
+
+#content-tab1{
+    text-align: center;
+}
+
+#brandName{
+    top: -40px;
+    position: relative;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#tab4{
+    float: right !important;
+}
+.seccionComments{
+    border: 1px dashed #6278B0;
+    padding: 10px;
+}
+.comName{
+    text-align: left;
+    font-size: 20px;
+    color: #12bf88;
+    font-style: oblique;
+        overflow: hidden;
+}
+.comComment{
+    width: 55%;
+    height: 50px;
+    display: inline-block;
+    text-align: right;
+    color: #72788D;
+        overflow: hidden;
+}
+.comUser{
+    text-align: left;
+    font-size: 10px;
+    color: #72788D;
+}
+.userInfo{
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-bottom;
+        overflow: hidden;
+}
+#userComment{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #6278B0; 
+    font-size: 1em;
+    vertical-align: top;
+    text-align: left;
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+
+}
+#formComment{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color: #6278B0;
+        overflow: hidden;
+}
+input[type=submit]{
+    padding: 10px 20px;
+    font-size: 0.7em;
+    color: white;
+    background: #12bf88;
+    margin: 0 0 0 20px;
+    border: 0;
+    text-align: center;
+
+}
+#commentsTitle{
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color: #6278B0;
+    overflow: hidden;
+}
+#content-tab3 {
+    text-align: center;
+}
+#userInfoDiv {
+    text-align: center;
+}
+#nameP {
+    font-size: 50px;
+    color: #12bf88;
+    margin: 10px;
+}
+#usernameP {
+    font-size: 30px;
+    color: #6278B0;
+    margin: 0px;
+}
+#userImage {
+    width: 100px;
+    height: 100px;
+}
+#emailP {
+    font-size: 20px;
+    color: #6278B0;
+}
+#countryP {
+    font-size: 20px;
+    color: #6278B0;
+}
+#genderP {
+    font-size: 20px;
+    color: #6278B0;
+}
+#commentAlert {
+    color: red;
+}
+label{
+    display: block;
+    margin: 15px;
+}

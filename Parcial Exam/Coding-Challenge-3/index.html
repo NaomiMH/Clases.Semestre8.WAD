@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Jammer</title>
+        <meta charset="UTF-8" />
+        <link href="./css/index.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="mainContainer">
+            <div id="theJammerHeader">
+                <img src="./img/jammer_logo.png"> 
+                <span id="brandName"> 
+                    "Connecting and sharing with people since 2016"
+                </span>
+            </div>
+            <div id="tabselector">
+                <ul id="tabs">
+                    <li id="tab1" class="selected">Home</li>
+                </ul>
+                <div id="tabcontent">
+                    <div id="content-tab1" class="active theJammerHome">
+                        <div id="addComment">
+                            <form id="formComment">
+                                <h3>Share your Jam:</h3>
+                                <label> 
+                                    Your name goes here: 
+                                    <input type="text" class="userName" />
+                                </label>
+                                <label>
+                                    <textarea id="userComment"></textarea>
+                                </label>
+                                <label>
+                                    <input type=submit value="Add Comment" id="submit"\>
+                                </label>
+                            </form>
+                        </div>
+                        <h3 id="commentsTitle"> 
+                            Hear the crowd!
+                        </h3>
+                        <div class="seccionComments">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="theJammerFooter">
+                    All Rights Reserved. THE JAMMER CO.
+                </div>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

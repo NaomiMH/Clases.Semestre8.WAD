@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+}
+
+h3{
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.menu{
+    background-color: darkblue;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.menu > label{
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.menu > label:hover{
+    cursor: pointer;
+    background-color: teal;
+}
+
+ul{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 500px){
+    .Left{
+        width: 200px;
+        display: inline-block;
+    }
+    .Right{
+        width: 200px;
+        display: inline-block;
+    }
+}
