@@ -1,0 +1,18 @@
+.{
+    display: flex;
+}
+
+
+footer {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+}
